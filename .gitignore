@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+credentials.json
+token.json
+*.egg-info/
+resumes/
+projects/
+pending_jobs.json
+.DS_Store
