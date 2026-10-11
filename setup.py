@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="emq",
+    name="mog",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -16,11 +16,12 @@ setup(
         "google-auth-httplib2>=0.1.1",
         "google-auth-oauthlib>=1.1.0",
         "python-dotenv>=1.0.0",
-        "textual>=0.47.1"
+        "textual>=0.47.1",
+        "questionary>=2.1.1"
     ],
     entry_points={
         "console_scripts": [
-            "emq=src.cli:app",
+            "mog=src.cli:app",
         ],
     },
 )
